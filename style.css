@@ -3,6 +3,8 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
     color: #F9FAF8;
+    box-sizing: border-box;
+
 }
 
 /*Header*/
@@ -13,7 +15,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0.625rem ; 
-    background-color: #1F2937;
+    background: #1F2937;
     padding-right: 5.625rem;
     padding-left: 5.625rem;
 }
@@ -33,7 +35,7 @@ header {
 /*Info*/
 
 .info {
-    background-color: #1F2937;
+    background: #1F2937;
     display: flex;
     justify-content: center;
     padding: 6rem 0rem;
@@ -58,7 +60,7 @@ header {
 
 .button{
     text-decoration: none;
-    background-color: #3882F6;
+    background: #3882F6;
     border-radius: 0.5rem;
     padding: 8px 35px;
     font-size: 1rem;
@@ -113,22 +115,45 @@ header {
 /*quote*/
 
 .quote {
-
-    background-color: #E5E7EB;
-    padding: 19rem 9rem;
-    padding-left: 20rem;
-    padding-right: 20rem;
+    display: flex;
+    flex-direction: column;
+    background: #E5E7EB;
+    justify-content: center;
+    height: 500px;
+    padding: 0rem 20rem;
 }
 
 .quote-text {
-    width: 900px;
-    color: #1F2937;
     font-size: 36px;
+    color: #1F2937;
     font-style: italic;
     font-weight: 400;
-    justify-content: center;
+
 }
 
-.quote-name{
+.quote-name {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    text-align: right;
     color: #1F2937;
 }
+
+
+
+/*footer*/
+
+.footer{
+    background: #1F2937;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-cop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
